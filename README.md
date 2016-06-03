@@ -4,9 +4,14 @@ A tool for generate an index page and upload it to your Hackpad.
 
 ## Installation
 
-This gem isn't push to rubygems.org yet, so please checkout this project and use it directly. via command below:
+This gem isn't push to rubygems.org yet, so please checkout this project and use it directly, via command below:
 
 ```bash
+
+git clone https://github.com/kudelabs/hackpad-generate-index
+cd hackpad-generate-index
+bundle install
+
 bundle exec bin/hackpad-generate-index --title='Whatever you want' --site='https://xxx.hackpad.com --client_id=id --secret=secret
 ```
 
